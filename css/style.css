@@ -81,21 +81,17 @@ header{
 }
 .header__content{
   padding: 15px 0px 0px;
-  border: 1px solid green;
 }
 .header__content-inner{
   display: flex;
   justify-content: space-between;
-  border: 1px solid green;
 }
 .header__logo a img{
   width: 100px;
   height: 100px;
-  border: 1px solid red;
 }
 .menu ul{
   padding-top: 5%;
-  border: 1px solid blue;
 }
 .menu li{
   display: inline-block;
@@ -124,19 +120,16 @@ header{
   background-size: cover;
   background-position: center;
   min-height: 500px;
-  border: 1px solid yellow;
 }
 .slider__item{
   background-image: url(../img/slider-fon1.jpg);
   padding-bottom: 150px;
-  border: 1px solid green;
 }
 .slider__item-content{
   text-align: center;
   padding-top: 110px;
   max-width: 665px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 .slider__title{
   text-transform: uppercase;
@@ -525,4 +518,23 @@ header{
   padding: 8px 0;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
+}
+/* Изменить цвет */
+.services__item img{
+      color: #ffc222
+}
+.mob_container{
+  padding-top: 20px;
+}
+.mob_apps{
+  display: flex;
+  justify-content:flex-start;
+}
+.mob_apps div{
+  margin-right: 10px;
+}
+.mob_text{
+  color: white;
+  font-size: 16px;
+  margin-bottom: 5px;
 }
