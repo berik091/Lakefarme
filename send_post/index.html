@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Форма обратной связи для сайта</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container_form" >
+		<h2>Форма обратной связи</h2>
+		<form id="contactForm" action="send.php" method="post">
+			<div class="field-block">
+				<label for="name">Ваше имя:</label>
+				<input class="field" name="uer_name" placeholder="Ф.И.О.">
+			</div>
+			<div class="field-block">
+				<label for="email">Ваш E-mail:</label>
+				<input class="field" name="user_email"placeholder="info@lakefarm.kz">
+			</div>
+			<div class="field-block">
+				<label for="phone">Ваш телефон:</label>
+				<input  class="field" name="user_phone" placeholder="+7 (777) 777 77 77">
+			</div>
+			<div class="field-block">
+				<label for="message">Текст сообщения:</label>
+				<textarea  class="field" name="user_message" rows="4"></textarea>
+			</div>
+			<button name="submit" type="submit" class="submit">Отправить</button>
+		</form>
+	</div>
+</body>
+</html>
