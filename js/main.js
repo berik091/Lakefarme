@@ -5,9 +5,17 @@ $(document).ready(function(){
         // infinite: false,
         // autoplay:true,
   });
-  $('select').styler();
 
   $('.header__btn-menu').on('click', function(){
     $('.menu ul').slideToggle();
   });
 });
+
+
+// (function($){
+//   $(function() {
+//     $('.header__btn-menu').on('click', function() {
+//       $(this).closest('.menu ul').toggleClass('menu_state_open');
+//     });
+//   });
+// })

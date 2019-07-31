@@ -3,7 +3,8 @@
     display: block;
   }
   .services__item{
-    max-width: 80%;
+
+    max-width: 50%;
     min-height: 330px;
     margin: 30px auto;
   }
@@ -45,6 +46,10 @@
   }
   .footer__map{
     max-width: 100%;
+  }
+  .social_container{
+  position: relative;
+  z-index: 2
   }
 }
 @media (max-width: 900px){
@@ -104,18 +109,18 @@
   .header__btn:before{
     display: none;
   }
-  .footer__info .header__btn:before{
-    display: block;
-  }
   .header__btn-menu{
     display: block;
   }
+  .footer__info .header__btn:before{
+    display: block;
+  }
+
   .menu ul{
     display: none;
     position: absolute;
-    left: 0;
     right: 0;
-    margin-top: 20px;
+    margin:auto;
     z-index: 50;
   }
   .menu li{
@@ -131,12 +136,24 @@
   .menu li + li{
     padding-left: 0;
   }
+  .social_container{
+  position: relative;
+  z-index: 2;
+
+  }
 }
+/* .menu_toolbar ul li{
+  max-width: 50%;
+} */
 @media (max-width: 600px){
   .services__item{
     max-width: 100%;
     min-height: 375px;
     margin: 30px auto;
+  }
+  .social_container{
+  position: relative;
+  z-index: 2
   }
 }
 @media (max-width: 540px){
@@ -158,6 +175,10 @@
   .news__slider-inner .slick-btn{
     bottom: -90px;
   }
+  .social_container{
+  position: relative;
+  z-index: 2
+  }
 }
 @media (max-width: 414px){
   .slider__title{
@@ -165,6 +186,21 @@
   }
   .slider__text{
     font-size: 16px;
+  }
+  .social_container{
+  position: relative;
+  z-index: 2
+  }
+  .slider__title_1,
+  .slider__title_2,
+  .slider__title_3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 12%;
+    margin-top: 10%;
   }
 }
 @media (max-width: 400px){
@@ -174,15 +210,59 @@
   .advantages-item{
     padding: 0;
   }
+  .social_container{
+  position: relative;
+  z-index: 2
+  }
+  .slider__title_1,
+  .slider__title_2,
+  .slider__title_3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 12%;
+    margin-top: 10%;
+  }
 }
+/* @media (max-width: 450px){
+  .about_logs{
+    margin-right: 200px;
+  }
+} */
 @media (max-width: 375px){
   .header__email{
     padding-right: 30px;
   }
+  .about_more{
+    padding: 0 30px 0 10px;
+    margin: auto;
+  }
+  .about_logs{
+    margin: auto;
+    padding: 0;
+  }
+  .about_sites{
+    display: flex;
+    justify-content: space-between;
+  }
+  .slider__title_1,
+  .slider__title_2,
+  .slider__title_3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 12%;
+    margin-top: 10%;
+  }
+  .social_container{
+  position: relative;
+  z-index: 2
+  }
 }
-
-
-
 @media (min-width: 700px){
   .menu ul{
     display: block !important;
