@@ -30,7 +30,6 @@
   }
   .news__images{
     float: left;
-    margin-right: 50px;
   }
   .news{
     padding-bottom: 60px;
@@ -173,7 +172,7 @@
     float: none;
   }
   .news__slider-inner .slick-btn{
-    bottom: -90px;
+    bottom: -70px;
   }
   .social_container{
   position: relative;

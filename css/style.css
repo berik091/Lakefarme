@@ -530,6 +530,7 @@ background-color: #ffc222;
   width: 100%;
 }
 .news__images{
+  text-align: center;
   position: relative;
 }
 .news__date{
@@ -542,7 +543,7 @@ background-color: #ffc222;
   padding-top: 0;
   font-weight: 700;
   top: 0px;
-  left: 10px;
+  left: 10%;
 }
 .news__blog-title{
   font-size: 16px;
@@ -577,13 +578,16 @@ background-color: #ffc222;
 }
 .news__slider-inner .slick-btn{
   top: auto;
-  bottom: -110px;
+  bottom: -30px;
+}
+.news__slider-inner .slick-btn:before{
+  color: #ffc222;
 }
 .news__slider-inner .slick-next{
   right: -35px;
 }
 .news__slider-inner .slick-prev{
-  right: 20px;
+  right: 30px;
   left: auto;
 }
 .news__slider-inner .slick-disabled{
