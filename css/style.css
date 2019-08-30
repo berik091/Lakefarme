@@ -437,7 +437,7 @@ background-color: #ffc222;
   padding: 25px 0px 45px;
 }
 .about__inner{
-  max-width: 900px;
+  max-width: 1050px;
 }
 .about__title{
   padding: 10px 0px 25px;
@@ -619,13 +619,28 @@ background-color: #ffc222;
   width: 100%;
 }
 .footer__title{
-  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-family: "TimesNewRomanPS";
   font-weight: 500;
-  font-size: 16px;
   color: #fff;
   line-height: 36px;
   letter-spacing: 0.5px;
 }
+.footer__title div:nth-child(1){
+  font-size: 26px;
+  text-shadow: 1px 1px 2px #000000;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+.footer__title div:nth-child(2){
+  font-size: 18px;
+    text-shadow: 1px 1px 2px #000000;
+    line-height: 6px;
+    font-weight: 200;
+    letter-spacing: 3px;
+
+}
+
 .footer__text{
   color: #d3d2d2;
   margin-bottom: 20px;
@@ -697,3 +712,7 @@ background-color: #ffc222;
   font-size: 28px;
   margin-top: 20px;
 }
+@font-face {
+    font-family:TimesNewRomanPS; /* Имя шрифта */
+    src: url(fonts/TimesNewRomanPS.otf); /* Путь к файлу со шрифтом */
+   }
